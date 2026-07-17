@@ -7,12 +7,6 @@
 
 #import <OmniFoundation/OFObject.h>
 
-// OS version
-#ifndef NSAppKitVersionNumber10_4
-#define	NSAppKitVersionNumber10_4 824
-#endif
-
-
 #if 1 && defined(DEBUG_robin)
 #define DEBUG_RS(format, ...) NSLog((format), ## __VA_ARGS__)
 #else
